@@ -59,11 +59,11 @@ const pages = [
 { title: "Young killer Msodokii - Mwanza ", url: "Young killer Msodokii - Mwanza.html", content: "" },
 { title: "Msodoki Young Killer - Go Ahead ", url: "Msodoki Young Killer - Go Ahead.html", content: "" },
 { title: "Young Killer Msodoki - The Waiting is Over ", url: "Young Killer Msodoki - The Waiting is Over.html", content: "" },
+{ title: "Rapcha – Hivi Tulivyo", url: "Rapcha – Hivi Tulivyo.html", content: "" },
 
-
-
-
-
+{ title: "Young Lunya – Freestyle at Wanene Tv", url: "Young Lunya – Freestyle at Wanene Tv.html", content: "" },
+{ title: "Young Lunya – Vitu Vingi", url: "Young Lunya – Vitu Vingi.html", content: "" },
+{ title: "Young Lunya – Mbwa Mwitu", url: "Young Lunya – Mbwa Mwitu.html", content: "" },
 
 
 
