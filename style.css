@@ -482,3 +482,27 @@ body {
     color: #aaa;
     letter-spacing: 1px;
 }
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination a.active {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+}
