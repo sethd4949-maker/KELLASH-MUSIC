@@ -57,7 +57,7 @@ const pages = [
         { title: "POM POM - Diamond Platnumz ", url: "Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel.html", content: "" },
               { title: "kaje Double Killer - MKE WANGU ", url: "kaje Double Killer - MKE WANGU.html", content: "" },
 { title: "Young killer Msodokii - Mwanza ", url: "Young killer Msodokii - Mwanza.html", content: "" },
-
+{ title: "Msodoki Young Killer - Go Ahead ", url: "Msodoki Young Killer - Go Ahead.html", content: "" },
 
 
 
