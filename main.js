@@ -72,7 +72,7 @@ const pages = [
 { title: "D Voice Ft Zuchu – Baridi", url: "D Voice Ft Zuchu – Baridi.html", content: "" },
 { title: "Marioo – OLUWA", url: "Marioo – OLUWA.html", content: "" },
 { title: "Yammi – Hayanogi", url: "Yammi – Hayanogi.html", content: "" },
-
+{ title: "malume-ma mngwani", url: "malume-ma mngwani.html", content: "" },
 
 
 
