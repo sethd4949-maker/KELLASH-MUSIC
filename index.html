@@ -1,313 +1,145 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KELLASH MUSIC | Powered by Kellash Studio</title>
-    <meta name="description" content="Kellash Music is a Tanzanian music platform for artists to record, upload, and share their songs.">
-  <meta name="keywords" content="Kellash Music, Akwiz Kellash, Tanzanian music, record studio, download songs">
-  <meta name="author" content="Akwiz Kellash">
-<meta property="og:title" content="KELLASH MUSIC | Powered by Kellash Studio">
-<meta property="og:description" content="Kellash Music is a Tanzanian music platform for artists to record, upload, and share their songs.">
-<meta property="og:image" content="https://kellashstudiotanzania.netlify.app/images/logo kellassh NN 2.jpg">
-<meta property="og:url" content="https://kellashstudiotanzania.netlify.app/index.html">
-<meta property="og:type" content="music.song">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/92d70a2fd8.js"></script>
-</head>
+// ========================
+// 🔹 BURGER MENU TOGGLE
+// ========================
+const burger = document.querySelector('.burger');
+const nav = document.querySelector('.nav-links');
 
-<style>
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+if (burger && nav) {
+  burger.addEventListener('click', () => {
+    nav.classList.toggle('nav-active');
+    burger.classList.toggle('toggle');
+  });
+}
+
+// ========================
+// 🔹 FORM LOADER DELAY
+// ========================
+const form = document.getElementById('searchForm');
+const loader = document.getElementById('loader');
+
+if (form && loader) {
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    loader.style.display = 'flex';
+    setTimeout(() => {
+      form.submit();
+    }, 3000);
+  });
+}
+
+// ========================
+// 🔹 SEARCH FUNCTION (Fuse.js)
+// ========================
+const pages = [
+  { title: "Daino minoma ft Benito Mc- Akili ya ndocc", url: "Daino Minoma X Benito Mc- Akili ya ndocc.html", content: "" },
+  { title: "Fammi Africa-Umejaa", url: "fammi-umejaa.html", content: "" },
+  { title: "EP | Fanu Benks - Afro centric", url: "EP I Fanu Benks - Afro centric.html", content: "" },
+  { title: "ctg harmanton - Enjo", url: "CTG harmaton- Enjo.html", content: "" },
+  { title: "kim voice-waambie", url: "Kim-Voice x Dee Breezy-Waambie.html", content: "" },
+  { title: "Fessy Melody", url: "Fesy melody songs.html", content: "" },
+   { title: "Fessy Melody-Vimba", url: "Fesy melody songs.html", content: "" },
+   { title: "Fessy Melody x Lady DIdy  - Over ", url: "Fesy melody songs.html", content: "" },
+   { title: "Moramz ft Dogo elisha - umbea", url: "Moramz ft Dogo elisha - umbea.html", content: "" },
+   { title: "Moramz - Ella", url: "Moramz ft Dogo elisha - umbea.html", content: "" },
+    { title: "Kani Master - Hujanizaa", url: "kani master - hujanizaa.html", content: "" },
+     { title: "Fanu Benks - Gangster Love", url: "EP I Fanu Benks - Afro centric.html", content: "" },
+         { title: "Fanu Benks", url: "fanu benks.html", content: "" },
+         { title: "Basya - Inatosha", url: "Basya - Inatosha.html", content: "" },
+          { title: "Hush B Ft Dee Punchy - Najihisi ", url: "Hush B Ft Dee Punchy - Najihisi Vizuri.html", content: "" },
+           { title: "Hush B Ft Dee Punchy X Chuka Boe - SABATO", url: "Hush B Ft Dee Punchy X Chuka Boe - SABATO.html", content: "" },
+    { title: "Fanu Benks - achana nao", url: "EP I Fanu Benks - Afro centric.html", content: "" },
+ { title: "Barakah The Prince - Mwanetu", url: "Barakah The Prince - Mwanetu.html", content: "" },
+     { title: "Willox Khan-Nakukumbuka", url: "Willox Khan-Nakukumbuka.HTML", content: "" },
+      { title: "Aslava - sina time nae", url: "ASLAVA_X_LOJINY_STAR_SINA_TIME_NAE.html", content: "" },
+      { title: "Aslava - sina time nae", url: "ASLAVA_X_LOJINY_STAR_SINA_TIME_NAE.html", content: "" },
+      { title: " Makomborero – Africa Will be Saved ", url: "Makomborero – Africa Will be Saved.html", content: "" },
+       { title: "Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel ", url: "Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel.html", content: "" },
+        { title: "POM POM - Diamond Platnumz ", url: "Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel.html", content: "" },
+              { title: "kaje Double Killer - MKE WANGU ", url: "kaje Double Killer - MKE WANGU.html", content: "" },
+{ title: "Young killer Msodokii - Mwanza ", url: "Young killer Msodokii - Mwanza.html", content: "" },
+{ title: "Msodoki Young Killer - Go Ahead ", url: "Msodoki Young Killer - Go Ahead.html", content: "" },
+{ title: "Young Killer Msodoki - The Waiting is Over ", url: "Young Killer Msodoki - The Waiting is Over.html", content: "" },
+{ title: "Rapcha – Hivi Tulivyo", url: "Rapcha – Hivi Tulivyo.html", content: "" },
+
+{ title: "Young Lunya – Freestyle at Wanene Tv", url: "Young Lunya – Freestyle at Wanene Tv.html", content: "" },
+{ title: "Young Lunya – Vitu Vingi", url: "Young Lunya – Vitu Vingi.html", content: "" },
+{ title: "Young Lunya – Mbwa Mwitu", url: "Young Lunya – Mbwa Mwitu.html", content: "" },
+{ title: "Rayvanny – TOTO Ft Calad", url: "Rayvanny – TOTO Ft Calad.html", content: "" },
+{ title: "Mex Cortez Ft Country Wizzy & Drillah Tz – Problems", url: "Country Wizzy – Problems.html", content: "" },
+{ title: "Meja Kunta – MAMU", url: "Meja Kunta – MAMU.html", content: "" },
+{ title: "Country Wizzy – Statement", url: "Country Wizzy – Statement.html", content: "" },
+{ title: "Hip Hop - Country Wizzy (Prod. B BOY BEATS)", url: "Country Wizzy – Hip Hop (Prod. B BOY BEATS).html", content: "" },
+{ title: "D Voice Ft Zuchu – Baridi", url: "D Voice Ft Zuchu – Baridi.html", content: "" },
+{ title: "Marioo – OLUWA", url: "Marioo – OLUWA.html", content: "" },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+];
+
+
+
+
+const searchInput = document.getElementById("searchInput");
+const resultsDiv = document.getElementById("results");
+
+if (searchInput && resultsDiv) {
+  const fuse = new Fuse(pages, {
+    keys: ["title", "content"],
+    threshold: 0.3,
+  });
+
+  function highlight(text, term) {
+    const regex = new RegExp(`(${term})`, "gi");
+    return text.replace(regex, "<span class='highlight'>$1</span>");
   }
-  
-  .box{
-    background-color: #eee;
-    width: 330px;
-    height: 50px;
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 25px;
-  }
-  input{
-    width: 240px;
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 18px;
-  }
-  .fa-solid:hover{
-    color: orangered;
-    cursor: pointer;
-  }
-  .result {
-      background: white;
-      border: 1px solid #eee;
-      padding: 1px;
-      border-radius: 10px;
-      margin-bottom: 15px;
-      transition: 0.2s;
+
+  searchInput.addEventListener("input", () => {
+    const term = searchInput.value.trim();
+    resultsDiv.innerHTML = "";
+
+    if (term === "") return;
+
+    const results = fuse.search(term);
+
+    if (results.length === 0) {
+      resultsDiv.innerHTML = "<p>Hakuna matokeo yaliyopatikana</p>";
+      return;
     }
 
-    .result:hover {
-      background: #f1f1f1;
-    }
-
-    .result a {
-      text-decoration: none;
-      color: #000000;
-      font-size: 18px;
-    }
-
-    .result p {
-      color: #555;
-    }
-
-    .highlight {
-      background: rgb(235, 235, 230);
-    }
-</style>
-<body>
-<header>
-    <nav class="navbar">
-      <div class="logo"> kellash music <p class="powered">powered by Kellash Studio</p></div>
-         <ul class="nav-links">
-         <li><a href="index.html">Home</a></li> <br>
-         <li><a href="audio.html">Audio</a></li> <br>
-         <li><a href="singeli.html">Singeli music</a></li> <br>
-         <li><a href="audio.html">Bongoflava</a></li> <br>
-         <li><a href="hiphop.html">Hip-hop/Rap</a></li> <br>
-          <li><a href="album.html">Album/EP</a></li> <br>
-          <li><a href="services.html">services</a></li> <br>
-         <li><a href="join.html">Join us</a></li> <br>
-         <li><a href="contact.html">Contact us</a></li>
-         </ul>
-      <!-- burger menu -->
-      <div class="burger">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </nav>
-  </header>
-  <!-- 🔹 Ads Banner -->
-    <div class="ads-banner">
-        <div class="scroll-text">
-            🔔 NEW UPDATES | Jiunge na Kellash Music leo na fungua burudani isiyo na kikomo, ubunifu usio na mipaka, na fursa za kuonyesha kipaji chako bila vikwazo!🔔 
+    results.forEach((r) => {
+      const item = r.item;
+      const html = `
+        <div class="result">
+          <a href="${item.url}">${highlight(item.title, term)}</a>
+          <p>${highlight(item.content, term)}</p>
         </div>
-    </div>
-
-  <center>
-  
-<!-- Search Box -->
-<form id="searchForm" action="search.php" method="GET" class="box">
-   <input type="text" id="searchInput" placeholder="Search Artist or song">
-
-  <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-</form>
-
- <div id="results"></div>
-  </div>
-
-
-</div>
-
-
-
-</section>
-  <section class="categories">
-  <a href="audio.html">Audio</a>
-  <a href="#">Video</a>
-  <a href="singeli.html">Singeli music</a>
-  <a href="hiphop.html">Album/EP</a>
-  
-  <a href="hiphop.html">Hip-hop/Rap</a>
-</section>
-</center>
-  <!-- Hero Section -->
- 
-  <!-- 🔥 TRENDING ARTISTS SECTION -->
-
-  <center>
-  
-        </div>
-<br>
- 
- <h1 style="font-size: 23px;">NEW & LATEST UPDATES</h1>
-<br>
-          <section class="songs">
-
- <a href="Rayvanny – TOTO Ft Calad.html" style="text-decoration: none;">
-              <div class="card"> <br>
-               <img src="https://www.citimuzik.com/wp-content/uploads/2025/11/Rayvanny-%E2%80%93-TOTO-Ft-Calad-MP3-DOWNLOAD-1140x1140.jpg.avif" alt="song cover" style="border-radius:10px;">
-               <div class="info"> 
-                <h3>TOTO</h3>
-                <p>Rayvanny Ft Calad</p>
-                </div> 
-                </div>
-               </a>
-
- <a href="D Voice Ft Zuchu – Baridi.html" style="text-decoration: none;">
-              <div class="card"> <br>
-               <img src="https://www.citimuzik.com/wp-content/uploads/2026/01/D-Voice-Ft-Zuchu-%E2%80%93-Baridi-MP3-DOWNLOAD-1140x1140.jpg" alt="song cover" style="border-radius:10px;">
-               <div class="info"> 
-                <h3>Baridi</h3>
-                <p>D Voice Ft Zuchu</p>
-                </div> 
-                </div>
-               </a>
-
-
-
-
-
-
-
-               
-
-             <a href="Country Wizzy – Problems.html" style="text-decoration: none;">
-              <div class="card"> <br>
-               <img src="https://www.citimuzik.com/wp-content/uploads/2026/01/GridArt_20260116_165514451-1140x1140.jpg" alt="song cover" style="border-radius:10px;">
-               <div class="info"> 
-                <h3>Problems</h3>
-                <p>Mex Cortez Ft Country Wizzy & Drillah Tz</p>
-                </div> 
-                </div>
-               </a>
-
-<a href="Young killer Msodokii - Mwanza.html" style="text-decoration: none;">
-              <div class="card"> <br>
-               <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQArm-nxLcIbrnvo-gOPcC6RzP0urGziN8maTMDr10aMwYUYFZgObWufGyYtuC33q1RWY4A2CYhT46b3CGXmPE4zvcsBaLOjOAboqX6NCl_OqmkWmvLb-WpwpVgLP21Iwz5hdN5nrtOaMlDguUY9Wb0GZw9jXazWT1gH9JOl14Dnnx-ZGldIoZmdmv_pV/s16000/Msodokii-Mwanza.jpg" alt="song cover" style="border-radius:10px;">
-               <div class="info"> 
-                <h3>Mwanza</h3>
-                <p>Young killer Msodokii</p>
-                </div> 
-                </div>
-               </a>
-
-
-             <a href="Barakah The Prince - Mwanetu.html" style="text-decoration: none;">
-              <div class="card"> <br>
-               <img src="images/Barakah-The-Prince-Mwanetu.jpg" alt="song cover" style="border-radius:10px;">
-               <div class="info"> 
-                <h3>Mwanetu</h3>
-                <p>Baraka The prince</p>
-                </div> 
-                </div>
-               </a>
-
-
- <a href="Rapcha – Hivi Tulivyo.html" style="text-decoration: none;">
-              <div class="card"> <br>
-               <img src="https://www.citimuzik.com/wp-content/uploads/2026/01/Rapcha-Hivi-Tulivyo-MP3-DOWNLOAD.jpg" alt="song cover" style="border-radius:10px;">
-               <div class="info"> 
-                <h3>Hivi Tulivyo</h3>
-                <p>Rapcha</p>
-                </div> 
-                </div>
-               </a>
-
-
-
-
-<a href="Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel.html" style="text-decoration: none;">
-              <div class="card"> <br>
-               <img src="https://www.citimuzik.com/wp-content/uploads/2026/01/Bruce-Melodie-%E2%80%93-POM-POM-ft-Diamond-Platnumz-x-Brown-Joel-MP3-DOWNLOAD-1140x1140.jpg.avif" alt="song cover" style="border-radius:10px;">
-               <div class="info"> 
-                <h3>POM POM</h3>
-                <p>Bruce Melodie ft Diamond platnumz x Brown Joel</p>
-                </div> 
-                </div>
-               </a>
-
-
-
-             <a href="Moramz ft Dogo elisha - umbea.html" style="text-decoration: none;">
-              <div class="card"> <br>
-               <img src="images/moramz ft dogo elisha- umbea.jpg" alt="song cover" style="border-radius:10px;">
-               <div class="info"> 
-                <h3>Umbea</h3>
-                <p>Moramz ft Dogo Elisha</p>
-                </div> 
-                </div>
-               </a>
-
- <a href="Young Killer Msodoki - The Waiting is Over.html" style="text-decoration: none;">
-              <div class="card"> <br>
-               <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLsx9ZHSgTgqsWrDQmneaXTR4ekF-eu4j7gW2JlM_v0GqIcFNiNpLOdibDvxpaMClRT02gYgsWCgK4TfnN3Gn_GnQgazW6DyJ9Dc8Uu6XWgl28pdHNVPSpDgCXiPRowocjj_oHQi6pxR2W/s16000/Young-Killer-Msodoki-The-Waiting-is-Over-AUDIO-COVER-640x360.jpeg" alt="song cover" style="border-radius:10px;">
-               <div class="info"> 
-                <h3>The Waiting is Over</h3>
-                <p>Young Killer Msodoki</p>
-                </div> 
-                </div>
-               </a>
-
-              <a href="ASLAVA_X_LOJINY_STAR_SINA_TIME_NAE.html" style="text-decoration: none;">
-              <div class="card"> <br>
-               <img src="images/ASLAVA_X_LOJINY_STAR_SINA_TIME_NAE_OFFICIAL_AUDIO(256k).jpeg" alt="song cover" style="border-radius:10px;">
-               <div class="info"> 
-                <h3>Sina Time Nae</h3>
-                <p>Aslava x Lojiny</p>
-                </div> 
-                </div>
-               </a>
-              
-
-    </section>
-<div id="content-container">
-    <!-- Hapa content ya page itabadilika -->
-</div>
-
-
-<div class="pagination">
-    <a href="index.html">1</a>
-    <a href="index2.html">2</a>
-    <a href="index3.html">3</a>
-    </a>....
-    <a href="index2.html">Next</a> <!-- Next inapeleka page ijayo -->
-</div>
-
-<br>
-  
-  <!-- Services Section -->
-  <section class="services">
-      <h2>Huduma Zetu</h2>
-      <div class="service-cards">
-          <div class="card">
-              <h3>Music Production</h3>
-              <p>Tunatengeneza beats, recording, mixing na mastering kwa ubora wa hali ya juu.</p>
-          </div>
-          <div class="card">
-              <h3>Artist Promotion</h3>
-              <p>Tunasaidia wasanii kufikia mashabiki wapya kupitia mitandao ya kijamii na platforms kubwa.</p>
-          </div>
-          <div class="card">
-              <h3>Events & Shows</h3>
-              <p>Tunaanda matamasha, gigs na livestreams kwaajili ya kuonyesha kazi za wasanii wetu.</p>
-          </div>
-      </div>
-  </section>
-<br>
-  <!-- Footer -->
-<footer>
-    <div class="contact-info">
-      For Adverts,sponsorship and partnership,get in touch with
-      <p><strong>Email:</strong> kellashstudiotz@gmail.com</p>
-      <p><strong>Phone:</strong> +255 784-800-125/+255 696-688-332</p>
-      <p><strong>Location:</strong> Dar es Salaam, Tanzania</p>
-    </div>
-    <br>
-      <p>&copy; 2021-2025 KELLASH MUSIC. All rights reserved.</p>
-  </footer>
-<!-- Fuse.js Library -->
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-
-<!-- File yako ya JavaScript -->
-<script src="main.js"></script>
-
-</body>
-</html>
+      `;
+      resultsDiv.innerHTML += html;
+    });
+  });
+}
