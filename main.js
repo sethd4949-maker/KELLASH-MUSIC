@@ -67,10 +67,42 @@ const pages = [
 { title: "Rayvanny – TOTO Ft Calad", url: "Rayvanny – TOTO Ft Calad.html", content: "" },
 { title: "Mex Cortez Ft Country Wizzy & Drillah Tz – Problems", url: "Country Wizzy – Problems.html", content: "" },
 { title: "Meja Kunta – MAMU", url: "Meja Kunta – MAMU.html", content: "" },
+{ title: "Country Wizzy – Statement", url: "Country Wizzy – Statement.html", content: "" },
+{ title: "Hip Hop - Country Wizzy (Prod. B BOY BEATS)", url: "Country Wizzy – Hip Hop (Prod. B BOY BEATS).html", content: "" },
+{ title: "D Voice Ft Zuchu – Baridi", url: "D Voice Ft Zuchu – Baridi.html", content: "" },
+{ title: "Marioo – OLUWA", url: "Marioo – OLUWA.html", content: "" },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ];
+
+
+
 
 const searchInput = document.getElementById("searchInput");
 const resultsDiv = document.getElementById("results");
