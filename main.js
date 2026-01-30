@@ -71,7 +71,7 @@ const pages = [
 { title: "Hip Hop - Country Wizzy (Prod. B BOY BEATS)", url: "Country Wizzy – Hip Hop (Prod. B BOY BEATS).html", content: "" },
 { title: "D Voice Ft Zuchu – Baridi", url: "D Voice Ft Zuchu – Baridi.html", content: "" },
 { title: "Marioo – OLUWA", url: "Marioo – OLUWA.html", content: "" },
-
+{ title: "Yammi – Hayanogi", url: "Yammi – Hayanogi.html", content: "" },
 
 
 
