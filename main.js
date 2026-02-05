@@ -104,42 +104,4 @@ const pages = [
 
 
 
-const searchInput = document.getElementById("searchInput");
-const resultsDiv = document.getElementById("results");
 
-if (searchInput && resultsDiv) {
-  const fuse = new Fuse(pages, {
-    keys: ["title", "content"],
-    threshold: 0.3,
-  });
-
-  function highlight(text, term) {
-    const regex = new RegExp(`(${term})`, "gi");
-    return text.replace(regex, "<span class='highlight'>$1</span>");
-  }
-
-  searchInput.addEventListener("input", () => {
-    const term = searchInput.value.trim();
-    resultsDiv.innerHTML = "";
-
-    if (term === "") return;
-
-    const results = fuse.search(term);
-
-    if (results.length === 0) {
-      resultsDiv.innerHTML = "<p>Hakuna matokeo yaliyopatikana</p>";
-      return;
-    }
-
-    results.forEach((r) => {
-      const item = r.item;
-      const html = `
-        <div class="result">
-          <a href="${item.url}">${highlight(item.title, term)}</a>
-          <p>${highlight(item.content, term)}</p>
-        </div>
-      `;
-      resultsDiv.innerHTML += html;
-    });
-  });
-}
