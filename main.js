@@ -76,32 +76,48 @@ const pages = [
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ];
 
 
 
+// ========================
+// 🔍 SEARCH FUNCTION (WORKING)
+// ========================
+
+const searchInput = document.getElementById("searchInput");
+const resultsDiv = document.getElementById("results");
+
+const options = {
+  keys: ["title"],
+  threshold: 0.4
+};
+
+const fuse = new Fuse(pages, options);
+
+searchInput.addEventListener("input", function () {
+  const query = this.value.trim();
+  resultsDiv.innerHTML = "";
+
+  if (query.length < 2) return;
+
+  const results = fuse.search(query);
+
+  if (results.length === 0) {
+    resultsDiv.innerHTML = "<p>No results found</p>";
+    return;
+  }
+
+  results.forEach(result => {
+    const item = result.item;
+    const div = document.createElement("div");
+    div.className = "result";
+    div.innerHTML = `
+      <a href="${item.url}">
+        <strong>${item.title}</strong>
+      </a>
+    `;
+    resultsDiv.appendChild(div);
+  });
+});
 
 
