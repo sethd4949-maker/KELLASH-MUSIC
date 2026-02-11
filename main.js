@@ -51,7 +51,7 @@ const pages = [
  { title: "Barakah The Prince - Mwanetu", url: "Barakah The Prince - Mwanetu.html", content: "" },
      { title: "Willox Khan-Nakukumbuka", url: "Willox Khan-Nakukumbuka.HTML", content: "" },
       { title: "Aslava - sina time nae", url: "ASLAVA_X_LOJINY_STAR_SINA_TIME_NAE.html", content: "" },
-      { title: "Aslava - sina time nae", url: "ASLAVA_X_LOJINY_STAR_SINA_TIME_NAE.html", content: "" },
+      
       { title: " Makomborero – Africa Will be Saved ", url: "Makomborero – Africa Will be Saved.html", content: "" },
        { title: "Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel ", url: "Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel.html", content: "" },
         { title: "POM POM - Diamond Platnumz ", url: "Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel.html", content: "" },
@@ -73,6 +73,15 @@ const pages = [
 { title: "Marioo – OLUWA", url: "Marioo – OLUWA.html", content: "" },
 { title: "Yammi – Hayanogi", url: "Yammi – Hayanogi.html", content: "" },
 { title: "malume-ma mngwani", url: "malume-ma mngwani.html", content: "" },
+{ title: "GeniusJini x66 – Sumaku", url: "GeniusJini x66 – Sumaku.html", content: "" },
+{ title: "fammi-mwaka_huu", url: "fammi-mwaka_huu.html", content: "" },
+{ title: "Salmin Swaggz – NYOTA Ft Young Lunya", url: "Salmin Swaggz – NYOTA Ft Young Lunya.html", content: "" },
+{ title: "Daino minoma - Nipe Raha za Dunia", url: "Daino minoma-nipe_raha_za dunia.html", content: "" },
+
+
+
+
+
 
 
 
