@@ -78,8 +78,8 @@ const pages = [
 { title: "Salmin Swaggz – NYOTA Ft Young Lunya", url: "Salmin Swaggz – NYOTA Ft Young Lunya.html", content: "" },
 { title: "Daino minoma - Nipe Raha za Dunia", url: "Daino minoma-nipe_raha_za dunia.html", content: "" },
 
-
-
+{ title: "Lil - Tecca - Ransom Live Performance Open_Mic", url: "Lil_Tecca__Ransom___Live_Performance____Open_Mic(256k).html", content: "" },
+{ title: "Blueface-Baby", url: "Blueface-Baby.html", content: "" },
 
 
 
