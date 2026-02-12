@@ -80,6 +80,31 @@ const pages = [
 
 { title: "Lil - Tecca - Ransom Live Performance Open_Mic", url: "Lil_Tecca__Ransom___Live_Performance____Open_Mic(256k).html", content: "" },
 { title: "Blueface-Baby", url: "Blueface-Baby.html", content: "" },
+{ title: "YG - Go Loko ft Tyga, Jon Z", url: "YG_-_Go_Loko__Audio__ft._Tyga,_Jon_Z(256k).html", content: "" },
+{ title: "CJ - WHOOPTY ", url: "CJ_-_WHOOPTY_[Official_Music_Video](256k).html", content: "" },
+{title: "chella - My Darling", url: "Chella - My_Darling.html", content: "" },
+{title: "Don Toliver - FWU", url: "Don_Toliver - FWU.html", content: "" },
+{title: "Diamond Platnumz - Msumari", url: "Diamond_Platnumz - Msumari.html", content: "" },
+{title: "Marioo – Snokonoko ll", url: "Marioo – Snokonoko ll.html", content: "" },
+{title: "Diamond Platnumz – Natulizana", url: "Diamond Platnumz – Natulizana .html", content: "" },
+{title: "Zuchu & Sun Voice – Bado Nakupenda Remix", url: "Zuchu & Sun Voice – Bado Nakupenda Remix.html", content: "" },
+{title: "Country Wizzy – Hauna Lolote Ft. Dario X SPLIT", url: "Country Wizzy – Hauna Lolote Ft. Dario X SPLIT.html", content: "" },
+{title: "Young Lunya - Natoka na Nani Ft Khaligraph Jones", url: "Young Lunya - Natoka na Nani Ft Khaligraph Jones.html", content: "" },
+{title: "Young Lunya - Announcement Freestyle", url: "Young Lunya – Announcement Freestyle.html", content: "" },
+{title: "Mbosso – Darasa La Saba", url: "Mbosso – Darasa La Saba.html", content: "" },
+{title: "Mbosso – Huyu Hapa", url: "Mbosso – Huyu Hapa.html", content: "" },
+{title: "Mbosso – Shetani Ft. Costa Titch X Alfa Kat", url: "Mbosso – Shetani Ft. Costa Titch X Alfa Kat.html", content: "" },
+{title: "Nameless – Nasinzia II Ft Marioo", url: "Nameless – Nasinzia II Ft Marioo.html", content: "" },
+{title: "Dulla Makabila – Dakika Moja", url: "Dulla Makabila – Dakika Moja.html", content: "" },
+{title: "Travis Scott - HOUSTONFORNICATION", url: "Travis_Scott_-_HOUSTONFORNICATION__Audio_(256k).html", content: "" },
+{title: "Rae Sremmurd - Swang", url: "Rae_Sremmurd_-_Swang__Lyrics_(256k).html", content: "" }
+
+
+
+
+
+
+
 
 
 
