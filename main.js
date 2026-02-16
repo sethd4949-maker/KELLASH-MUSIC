@@ -104,16 +104,15 @@ const pages = [
 {title: "Metro Boomin - Superhero (Heroes & Villains)", url: "Metro_Boomin___Future_-_Superhero__Heroes___Villains__[Official_Music_Video](256k).html", content: "" },
 {title: "Travis Scott Songs", url: "travis scott songs.html", content: "" },
 {title: "Travis Scott - MY EYES", url: "Travis_Scott_-_MY_EYES__Official_Audio_(140).html", content: "" },
-
-
-
-
-
-
-
-
-
-
+{title: "Toxic – Fumanizi.html", url: "Toxic – Fumanizi.html", content: "" },
+{title: "Kilimanjaro - pcee", url: "Kilimanjaro__Official_Audio_(256k).html", content: "" },
+{title: "Pcee x Justin99 x EeQue - ZoTata", url: "Pcee_x_Justin99_x_EeQue_-_ZoTata__Official_Audio__ft._Mr_JazziQ%28256k%29.html", content: "" },
+{title: "Young Thug - The London ft J. Cole & Travis Scott", url: "travis scott songs.html", content: "" },
+{title: "Travis Scott - FEiN ft Playboi Carti", url: "travis scott songs.html", content: "" },
+{title: "Travis Scott - goosebumps ft Kendrick Lamar", url: "travis scott songs.html", content: "" },
+{title: "Travis Scott - TOPIA TWINS ft Rob49, 21 Savage", url: "travis scott songs.html", content: "" },
+{title: "Travis Scott - WAKE UP", url: "travis scott songs.html", content: "" },
+{title: "Travis Scott - Wasted ft Juicy J", url: "travis scott songs.html", content: "" },
 
 
 
