@@ -97,7 +97,14 @@ const pages = [
 {title: "Nameless – Nasinzia II Ft Marioo", url: "Nameless – Nasinzia II Ft Marioo.html", content: "" },
 {title: "Dulla Makabila – Dakika Moja", url: "Dulla Makabila – Dakika Moja.html", content: "" },
 {title: "Travis Scott - HOUSTONFORNICATION", url: "Travis_Scott_-_HOUSTONFORNICATION__Audio_(256k).html", content: "" },
-{title: "Rae Sremmurd - Swang", url: "Rae_Sremmurd_-_Swang__Lyrics_(256k).html", content: "" }
+{title: "Rae Sremmurd - Swang", url: "Rae_Sremmurd_-_Swang__Lyrics_(256k).html", content: "" },
+{title: "Future, Metro Boomin, The Weeknd - Young Metro", url: "Future%2C_Metro_Boomin%2C_The_Weeknd_-_Young_Metro__Official_Music_Video_%28256k%29.html", content: "" },
+{title: "Metro Boomin, Don Toliver, Future - Too Many Nights", url: "Metro_Boomin,_Don_Toliver,_Future_-_Too_Many_Nights__Official_Video_(256k).html", content: "" },
+{title: "Metro Boomin - Space Cadet ft. Gunna", url: "Metro_Boomin_-_Space_Cadet_ft._Gunna(256k).html", content: "" },
+{title: "Metro Boomin - Superhero (Heroes & Villains)", url: "Metro_Boomin___Future_-_Superhero__Heroes___Villains__[Official_Music_Video](256k).html", content: "" },
+
+
+
 
 
 
