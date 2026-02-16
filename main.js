@@ -102,7 +102,8 @@ const pages = [
 {title: "Metro Boomin, Don Toliver, Future - Too Many Nights", url: "Metro_Boomin,_Don_Toliver,_Future_-_Too_Many_Nights__Official_Video_(256k).html", content: "" },
 {title: "Metro Boomin - Space Cadet ft. Gunna", url: "Metro_Boomin_-_Space_Cadet_ft._Gunna(256k).html", content: "" },
 {title: "Metro Boomin - Superhero (Heroes & Villains)", url: "Metro_Boomin___Future_-_Superhero__Heroes___Villains__[Official_Music_Video](256k).html", content: "" },
-
+{title: "Travis Scott Songs", url: "travis scott songs.html", content: "" },
+{title: "Travis Scott - MY EYES", url: "Travis_Scott_-_MY_EYES__Official_Audio_(140).html", content: "" },
 
 
 
