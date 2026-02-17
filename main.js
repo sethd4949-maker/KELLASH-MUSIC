@@ -121,16 +121,17 @@ const pages = [
 {title: "Central Cee - Doja", url: "Central_Cee_-_Doja__Official_Music_Video_%28256k%29.html", content: "" },
 {title: "Central Cee x Dave - Sprinter", url: "Central_Cee_x_Dave_-_Sprinter_[Music_Video](256k).html", content: "" },
 {title: "Central Cee FT. Lil Baby - BAND4BAND", url: "CENTRAL_CEE_FT._LIL_BABY_-_BAND4BAND__MUSIC_VIDEO_%28256k%29.html", content: "" },
-
-
-
-
-
-
-
-
-
-
+{title: "DJ Pacheko Midundo Ft Mama Amina - Mzee wa Bwax & BaroBaro - Watoto Wazee", url: "Mama Amina - Watoto Wazee.html", content: "" },
+{title: "Mczo Morfan – Sio Pesa", url: "Mczo Morfan – Sio Pesa.html", content: "" },
+{title: "Mczo Morfani – Dar Usumbufu", url: "Mczo Morfani – Dar Usumbufu.html", content: "" },
+{title: "Mczo Morfan – Usinichiti", url: "Mczo Morfan – Usinichiti.html", content: "" },
+{title: "Dogo Niga - Mida Ya Kubeti", url: "dogo_niga_MIDA_YA_KUBETI.html", content: "" },
+{title: "Kaje Double Killer - Mapinduzi", url: "Kaje Double Killer - Mapinduzi.html", content: "" },
+{title: "Kaje Double Killer – Mida (02)", url: "Kaje Double Killer – Mida (02).html", content: "" },
+{title: "Kaje Double Killer - Safari", url: "Kaje Double Killer – Safari.html", content: "" },
+{title: "Kaje Double Killer – Ngwele", url: "Kaje Double Killer – Ngwele.html", content: "" },
+{title: "Kaje Double Killer – Puza", url: "Kaje Double Killer – Puza.html", content: "" },
+{title: "Taifa la Kesho - Kaje Double Killer", url: "kaje double-taifa-la-kesho.html", content: "" },
 
 
 
