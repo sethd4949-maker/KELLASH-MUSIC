@@ -132,11 +132,14 @@ const pages = [
 {title: "Kaje Double Killer – Ngwele", url: "Kaje Double Killer – Ngwele.html", content: "" },
 {title: "Kaje Double Killer – Puza", url: "Kaje Double Killer – Puza.html", content: "" },
 {title: "Taifa la Kesho - Kaje Double Killer", url: "kaje double-taifa-la-kesho.html", content: "" },
-
-
-
-
-
+{title: "Kaje Double Killer – Majonzi", url: "Kaje Double Killer – Majonzi.html", content: "" },
+{title: "Kaje Double Killer – Maisha Ya Kiuni", url: "Kaje Double Killer – Maisha Ya Kiuni.html", content: "" },
+{title: "Kaje Double Killer – Huu mziki", url: "Kaje Double Killer – Huu mziki.html", content: "" },
+{title: "Kaje Double Killer – Future", url: "Kaje Double Killer – Future.html", content: "" },
+{title: "Kaje Double Killer – Kiutu Uzima", url: "Kaje Double Killer – KIUTU UZIMA.html", content: "" },
+{title: " Tatizo Jealous-Kaje Double Killer", url: "Kaje Double Killer – Tatizo Jealous.html", content: "" },
+{title: "Mczo Morfan – Sina Ajila", url: "Mczo Morfan – Sina Ajila.html", content: "" },
+{title: "Kaje Double Killer - Kila Upande", url: "Kaje Double Killer - Kila Upande.html", content: "" },
 
 
 
