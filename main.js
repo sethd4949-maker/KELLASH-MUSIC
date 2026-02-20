@@ -54,8 +54,8 @@ const pages = [
       
       { title: " Makomborero – Africa Will be Saved ", url: "Makomborero – Africa Will be Saved.html", content: "" },
        { title: "Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel ", url: "Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel.html", content: "" },
-        { title: "POM POM - Diamond Platnumz ", url: "Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel.html", content: "" },
-              { title: "kaje Double Killer - MKE WANGU ", url: "kaje Double Killer - MKE WANGU.html", content: "" },
+{ title: "POM POM - Diamond Platnumz ", url: "Bruce Melodie – POM POM ft Diamond Platnumz x Brown Joel.html", content: "" },
+{ title: "kaje Double Killer - MKE WANGU ", url: "kaje Double Killer - MKE WANGU.html", content: "" },
 { title: "Young killer Msodokii - Mwanza ", url: "Young killer Msodokii - Mwanza.html", content: "" },
 { title: "Msodoki Young Killer - Go Ahead ", url: "Msodoki Young Killer - Go Ahead.html", content: "" },
 { title: "Young Killer Msodoki - The Waiting is Over ", url: "Young Killer Msodoki - The Waiting is Over.html", content: "" },
@@ -78,9 +78,9 @@ const pages = [
 { title: "Salmin Swaggz – NYOTA Ft Young Lunya", url: "Salmin Swaggz – NYOTA Ft Young Lunya.html", content: "" },
 { title: "Daino minoma - Nipe Raha za Dunia", url: "Daino minoma-nipe_raha_za dunia.html", content: "" },
 
-{ title: "Lil - Tecca - Ransom Live Performance Open_Mic", url: "Lil_Tecca__Ransom___Live_Performance____Open_Mic(256k).html", content: "" },
-{ title: "Blueface-Baby", url: "Blueface-Baby.html", content: "" },
-{ title: "YG - Go Loko ft Tyga, Jon Z", url: "YG_-_Go_Loko__Audio__ft._Tyga,_Jon_Z(256k).html", content: "" },
+{title: "Lil - Tecca - Ransom Live Performance Open_Mic", url: "Lil_Tecca__Ransom___Live_Performance____Open_Mic(256k).html", content: "" },
+{title: "Blueface-Baby", url: "Blueface-Baby.html", content: "" },
+{title: "YG - Go Loko ft Tyga, Jon Z", url: "YG_-_Go_Loko__Audio__ft._Tyga,_Jon_Z(256k).html", content: "" },
 { title: "CJ - WHOOPTY ", url: "CJ_-_WHOOPTY_[Official_Music_Video](256k).html", content: "" },
 {title: "chella - My Darling", url: "Chella - My_Darling.html", content: "" },
 {title: "Don Toliver - FWU", url: "Don_Toliver - FWU.html", content: "" },
@@ -140,21 +140,13 @@ const pages = [
 {title: " Tatizo Jealous-Kaje Double Killer", url: "Kaje Double Killer – Tatizo Jealous.html", content: "" },
 {title: "Mczo Morfan – Sina Ajila", url: "Mczo Morfan – Sina Ajila.html", content: "" },
 {title: "Kaje Double Killer - Kila Upande", url: "Kaje Double Killer - Kila Upande.html", content: "" },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{title: "Jaden_-_Icon", url: "Jaden_-_Icon(256k).html", content: "" },
+{title: "Juice WRLD & Cordae - Doomsday", url: "Juice_WRLD___Cordae_-_Doomsday_(256k).html", content: "" },
+{title: "Lil Keed - Snake", url: "Lil_Keed_-__Snake__Official_Audio_(256k).html", content: "" },
+{title: "NLE Choppa ft 41 Kyle richh,jenn carter,TATA - Or What", url: "NLE_Choppa_ft.__41__Kyle_richh,_jenn_carter,_TATA_-_Or_What_(256k).HTML", content: "" },
+{title: "Oliver Tree - Life Goes On (Remix)", url: "Oliver_Tree_-_Life_Goes_On__Remix__[Lyrics]_ft._Trippie_Redd___Ski_Mask_the_Slump_God(256k).html", content: "" },
+{title: "Fat Nick x Lil Jerry - Park It", url: "Fat_Nick___Lil_Jerry_-_Park_It_[Official_Music_Video]__reupload_(256k).HTML", content: "" },
+{title: "Rae Sremmurd - Not So Bad", url: "Rae_Sremmurd_-_Not_So_Bad__Leans_Gone_Cold__(256k).html", content: "" },
 
 
 
