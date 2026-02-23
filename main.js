@@ -147,6 +147,24 @@ const pages = [
 {title: "Oliver Tree - Life Goes On (Remix)", url: "Oliver_Tree_-_Life_Goes_On__Remix__[Lyrics]_ft._Trippie_Redd___Ski_Mask_the_Slump_God(256k).html", content: "" },
 {title: "Fat Nick x Lil Jerry - Park It", url: "Fat_Nick___Lil_Jerry_-_Park_It_[Official_Music_Video]__reupload_(256k).HTML", content: "" },
 {title: "Rae Sremmurd - Not So Bad", url: "Rae_Sremmurd_-_Not_So_Bad__Leans_Gone_Cold__(256k).html", content: "" },
+{title: "Don Breezy Ft Msomali Vitamin – Yaa Ramadhan", url: "Don Breezy Ft Msomali Vitamin – Yaa Ramadhan.html", content: "" },
+{title: "NLE Choppa - Camelot", url: "NLE_Choppa_-_Camelot__Official_Music_Video_(256k).html", content: "" },
+{title: "NLE Choppa - Do It Again", url: "NLE_Choppa_-_Do_It_Again__ft._@2rareee.html", content: "" },
+{title: "NLE Choppa - Shotta Flow", url: "NLE_Choppa_-_Shotta_Flow__Official_Music_Video_(256k).html", content: "" },
+{title: "NLE Choppa - Walk Em Down", url: "NLE_Choppa_-_Walk_Em_Down_feat._Roddy_Ricch_[Official_Music_Video](256k).html", content: "" },
+{title: "Playboi Carti - ALL RED", url: "Playboi_Carti_-_ALL_RED__Official_Visualizer_(256k).html", content: "" },
+{title: "Playboi Carti - EVIL J0RDAN", url: "Playboi_Carti_-_EVIL_J0RDAN__Official_Visualizer_(256k).html", content: "" },
+{title: "Playboi Carti - Magnolia", url: "Playboi_Carti_-_Magnolia(256k).html", content: "" },
+{title: "sky - playboi carti", url: "Playboi_Carti_-_Sky_[Official_Video](256k).html", content: "" },
+{title: "The Weeknd & Playboi Carti - Timeless", url: "The_Weeknd,_Playboi_Carti_-_Timeless(256k).html", content: "" },
+{title: "Aslay Ft Nandy – Subalkheri Mpenzi", url: "Aslay Ft Nandy – Subalkheri Mpenzi.html", content: "" },
+{title: "Nandy – Asante", url: "Nandy – Asante.html", content: "" },
+{title: "Billnass Ft Nandy – Bugana (Prod. S2kizzy)", url: "Billnass Ft Nandy – Bugana (Prod. S2kizzy).html", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+
 
 
 
