@@ -160,10 +160,40 @@ const pages = [
 {title: "Aslay Ft Nandy – Subalkheri Mpenzi", url: "Aslay Ft Nandy – Subalkheri Mpenzi.html", content: "" },
 {title: "Nandy – Asante", url: "Nandy – Asante.html", content: "" },
 {title: "Billnass Ft Nandy – Bugana (Prod. S2kizzy)", url: "Billnass Ft Nandy – Bugana (Prod. S2kizzy).html", content: "" },
+{title: "AbduKiba – Rafiki Ft Vanillah X Alikiba", url: "AbduKiba – Rafiki Ft Vanillah X Alikiba.html", content: "" },
+{title: "G Nako Ft Damiilove – Mfumo", url: "G Nako Ft Damiilove – Mfumo.html", content: "" },
+{title: "Muttima – Mapenzi", url: "Muttima – Mapenzi.html", content: "" },
+{title: "Toxic Lyrikali – Bad Everyday", url: "Toxic Lyrikali – Bad Everyday.html", content: "" },
+{title: "Toxic Lyrikali – Confirmation Ft Mr Ree", url: "Toxic Lyrikali – Confirmation Ft Mr Ree.html", content: "" },
+{title: "Vanillah ft Alikiba – Tamu Chungu", url: "Vanillah ft Alikiba – Tamu Chungu.html", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
