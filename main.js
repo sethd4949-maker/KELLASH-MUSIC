@@ -179,7 +179,7 @@ const pages = [
 {title: "Khalid - Young Dumb Broke", url: "Khalid_-_Young_Dumb___Broke__Lyrics_(256k).html", content: "" },
 {title: "Stepz – Rock", url: "Stepz_-_Rock__Audio_(256k).html", content: "" },
 {title: "Wiz_Khalifa - See You Again ft Charlie Puth", url: "Wiz_Khalifa_-_See_You_Again__Lyrics__ft._Charlie_Puth(256k).html", content: "" },
-{title: "lil nas x", url: "lil nas x.html", content: "" },
+{title: "lil nas x - Songs", url: "lil nas x.html", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
