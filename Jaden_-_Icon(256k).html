@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jaden – Icon | Kellash Music</title> 
+  <title> Ed Sheeran – Shape of You | Kellash Music</title> 
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Sikiliza na pakua nyimbo ya Jaden – Icon - kupitia Kellash Music. Music Tanzania | Download MP3.">
-  <meta name="keywords" content="Jaden – Icon, Tanzania Music, Download, New Song">
-<meta property="og:title" content="Jaden – Icon | Kellash Music"> 
-<meta property="og:description" content="Sikiliza na pakua nyimbo ya Jaden – Icon huu kupitia Kellash Music.">
+  <meta name="description" content="Sikiliza na pakua nyimbo ya Ed Sheeran – Shape of You - kupitia Kellash Music. Music Tanzania | Download MP3.">
+  <meta name="keywords" content="Ed Sheeran – Shape of You, Tanzania Music, Download, New Song">
+<meta property="og:title" content="Ed Sheeran – Shape of You | Kellash Music"> 
+<meta property="og:description" content="Sikiliza na pakua nyimbo ya Ed Sheeran – Shape of You huu kupitia Kellash Music.">
 <meta property="og:image" content="https://kellashstudiotanzania.netlify.app/images/">
 <meta property="og:url" content="https://kellashstudiotanzania.netlify.app/">
 <meta property="og:type" content="music.song">
@@ -45,17 +45,17 @@
   </header>
   <center>
     <P style="color: red;">AUDIO</P>
-    AUDIO | Jaden – Icon
+    AUDIO | Ed Sheeran – Shape of You
   <div class="cardyanyimbo" style="border:1px solid #ccc; padding:15px; width:300px; text-align:center; margin:10px; border-radius:10px;">
     <!-- Picha ya track -->
-    <img src="https://t2.genius.com/unsafe/430x430/https%3A%2F%2Fimages.genius.com%2F8c24417e95ad9eb5f2ae4396639f1ef4.1000x1000x1.png" alt="Track Cover" style="width:100%; border-radius:10px;" />
+    <img src="https://www.billboard.com/wp-content/uploads/media/04-ed-sheeran-screenshot-2017-billboard-1548.jpg?w=942&h=628&crop=1" alt="Track Cover" style="width:100%; border-radius:10px;" />
 
     <!-- Jina la track -->
    <br>
 
     <!-- Audio Player -->
     <audio controls style="width:100%;">
-        <source src="audio/Jaden_-_Icon(256k).mp3" type="audio/mpeg" />
+        <source src="audio/Ed_Sheeran_–_Shape_of_You__Lyrics_(256k).mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
     </audio>
 
@@ -69,10 +69,10 @@
 document.getElementById('downloadAll').addEventListener('click', async () => {
     const zip = new JSZip();
 
-    const mp3Data = await fetch('audio/Jaden_-_Icon(256k).mp3').then(r => r.arrayBuffer());
+    const mp3Data = await fetch('audio/').then(r => r.arrayBuffer());
   
 
-    zip.file('Jaden_-_Icon(256k).mp3', mp3Data); //weka jina la nyimbo
+    zip.file('.mp3', mp3Data); //weka jina la nyimbo
     
 
     const blob = await zip.generateAsync({ type: 'blob' });
@@ -80,7 +80,7 @@ document.getElementById('downloadAll').addEventListener('click', async () => {
 
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'Jaden_-_Icon(256k).zip';//weka jina la nyimbo
+    a.download = '.zip';//weka jina la nyimbo
     a.click();
     URL.revokeObjectURL(url);
 });
@@ -92,7 +92,7 @@ document.getElementById('downloadAll').addEventListener('click', async () => {
     Also you may like:<br>
    <div class="cardyanyimbo" style="border:1px solid #ccc; padding:15px; width:300px; text-align:center; margin:10px; border-radius:10px;">
     <!-- Picha ya track -->
-     <a href="Juice_WRLD___Cordae_-_Doomsday_(256k).html"><img src="https://i.ytimg.com/vi/JdXubSf5YUc/sddefault.jpg?v=651534cb" alt="Track Cover" style="width:100%; border-radius:10px;" />
+     <a href="Jaden_-_Icon(256k).html"><img src="https://t2.genius.com/unsafe/430x430/https%3A%2F%2Fimages.genius.com%2F8c24417e95ad9eb5f2ae4396639f1ef4.1000x1000x1.png" alt="Track Cover" style="width:100%; border-radius:10px;" />
 
     <!-- Jina la track -->
     
@@ -104,7 +104,8 @@ document.getElementById('downloadAll').addEventListener('click', async () => {
     
     
     
-    <a href="Juice_WRLD___Cordae_-_Doomsday_(256k).html"<h3 style="font-size: 20px; margin:10px 0;color: #000;text-decoration: none;">Juice WRLD & Cordae – Doomsday</h3></a>
+    <a href="Jaden_-_Icon(256k).html"<h3 style="font-size: 20px; margin:10px 0;color: #000;text-decoration: none;">Jaden - Icon</h3>
+</a>
    
 
    
