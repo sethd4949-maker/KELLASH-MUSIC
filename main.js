@@ -299,3 +299,44 @@ searchInput.addEventListener("input", function () {
 });
 
 
+function openPage(pageId, el){
+    // hide pages
+    document.querySelectorAll('.page').forEach(p=>{
+        p.classList.remove('active');
+    });
+
+    // show selected page
+    document.getElementById(pageId).classList.add('active');
+
+    // active nav
+    document.querySelectorAll('.nav-item').forEach(n=>{
+        n.classList.remove('active');
+    });
+
+    el.classList.add('active');
+}
+function goToSearch(){
+    const search = document.getElementById("searchForm");
+
+    search.scrollIntoView({
+        behavior: "smooth"
+    });
+
+    // focus kwenye input
+    document.getElementById("searchInput").focus();
+}
+function goToTrending(){
+    document.querySelector(".section222").scrollIntoView({
+        behavior: "smooth"
+    });
+}
+function scrollToTop(){
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+function goToUpload(){
+    alert("Upload feature inakuja hivi karibuni 😎");
+}
