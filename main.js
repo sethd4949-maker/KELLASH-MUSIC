@@ -197,7 +197,7 @@ const pages = [
 {title: "Pk Mr Konk – Kombo", url: "Pk Mr Konk – Kombo.html", content: "" },
 {title: "Billnass – Division One Freestyle", url: "Billnass – Division One Freestyle.html", content: "" },
 {title: "Country Wizzy Ft Moni Centrozone & Papy & Posh Boy & Bway – Nataka", url: "Country Wizzy Ft Moni Centrozone & Papy & Posh Boy & Bway – Nataka.html", content: "" },
-{title: "", url: "", content: "" },
+{title: "kellash music", url: "artist sample.html", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
