@@ -198,10 +198,10 @@ const pages = [
 {title: "Billnass – Division One Freestyle", url: "Billnass – Division One Freestyle.html", content: "" },
 {title: "Country Wizzy Ft Moni Centrozone & Papy & Posh Boy & Bway – Nataka", url: "Country Wizzy Ft Moni Centrozone & Papy & Posh Boy & Bway – Nataka.html", content: "" },
 {title: "kellash music", url: "artist sample.html", content: "" },
-{title: "", url: "", content: "" },
-{title: "", url: "", content: "" },
-{title: "", url: "", content: "" },
-{title: "", url: "", content: "" },
+{title: "Watu - Marioo Ft D Voice", url: "Marioo Ft D Voice – Watu.html", content: "" },
+{title: "Pombe I - Marioo Ft Harmonize", url: "Marioo Ft Harmonize – Pombe I.html", content: "" },
+{title: "Timo G - Kitaani", url: "timo g- kitaani.html", content: "" },
+{title: "Timo G - Sometimes", url: "timo g- sometimes.html", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
@@ -337,3 +337,79 @@ function scrollToTop(){
 function goToUpload(){
     alert("Upload feature inakuja hivi karibuni 😎");
 }
+
+function loadRecommendations(){
+
+    let container = document.getElementById("recommend-list");
+
+    let shuffled = songs.sort(() => 0.5 - Math.random());
+    let selected = shuffled.slice(0, 6); // zaidi ya 5
+
+    container.innerHTML = `<div class="rec-grid">
+        ${selected.map(song => `
+            <a href="${song.url}" class="rec-card">
+                <img src="${song.img}">
+                <h3>${song.title}</h3>
+            </a>
+        `).join("")}
+    </div>`;
+}
+
+loadRecommendations();
+const songs = [
+{
+title: "Nataka - Country Wizzy",
+img: "https://www.citimuzik.com/wp-content/uploads/2026/01/Wizzy-Ft-Moni-Nataka.jpg.avif",
+url: "nataka.html"
+},
+{
+title: "GOAT TALK",
+img: "https://www.citimuzik.com/wp-content/uploads/2026/04/Young-Lunya.jpg",
+url: "goat-talk.html"
+},
+{
+title: "Iyo - D Voice",
+img: "https://www.citimuzik.com/wp-content/uploads/2026/04/D-Voice.jpg",
+url: "iyo.html"
+},
+{
+title: "Baridi - Zuchu",
+img: "https://www.citimuzik.com/wp-content/uploads/2026/01/Zuchu.jpg",
+url: "baridi.html"
+},
+{
+title: "Natulizana - Diamond",
+img: "https://www.citimuzik.com/wp-content/uploads/2026/02/Diamond.jpg",
+url: "natulizana.html"
+},
+{
+title: "Sumaku",
+img: "https://www.citimuzik.com/wp-content/uploads/2026/02/GeniusJini.jpg",
+url: "sumaku.html"
+}
+];
+
+// 🔥 RANDOM 6 SONGS
+let shuffled = songs.sort(() => 0.5 - Math.random());
+let selected = shuffled.slice(0, 6);
+
+document.getElementById("recommend-list").innerHTML =
+`<div class="rec-grid">
+${selected.map(song => `
+<a class="rec-card" href="${song.url}">
+<img src="${song.img}">
+<h3>${song.title}</h3>
+</a>
+`).join("")}
+</div>`;
+
+
+
+
+
+const burger = document.querySelector('.burger');
+const nav = document.querySelector('.nav-links');
+
+burger.addEventListener('click', () => {
+nav.classList.toggle('nav-active');
+});
