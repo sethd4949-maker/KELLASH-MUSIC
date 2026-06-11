@@ -30,8 +30,11 @@ if (form && loader) {
 // ========================
 // 🔹 SEARCH FUNCTION (Fuse.js)
 // ========================
+
+
+
 const pages = [
-  { title: "Daino minoma ft Benito Mc- Akili ya ndocc", url: "Daino Minoma X Benito Mc- Akili ya ndocc.html", content: "" },
+ { title: "Daino minoma ft Benito Mc- Akili ya ndocc", url: "Daino Minoma X Benito Mc- Akili ya ndocc.html", content: "" },
   { title: "Fammi Africa-Umejaa", url: "fammi-umejaa.html", content: "" },
   { title: "EP | Fanu Benks - Afro centric", url: "EP I Fanu Benks - Afro centric.html", content: "" },
   { title: "ctg harmanton - Enjo", url: "CTG harmaton- Enjo.html", content: "" },
@@ -231,6 +234,25 @@ const pages = [
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
+{title: "", url: "", content: "" },
 
 
 
@@ -337,79 +359,3 @@ function scrollToTop(){
 function goToUpload(){
     alert("Upload feature inakuja hivi karibuni 😎");
 }
-
-function loadRecommendations(){
-
-    let container = document.getElementById("recommend-list");
-
-    let shuffled = songs.sort(() => 0.5 - Math.random());
-    let selected = shuffled.slice(0, 6); // zaidi ya 5
-
-    container.innerHTML = `<div class="rec-grid">
-        ${selected.map(song => `
-            <a href="${song.url}" class="rec-card">
-                <img src="${song.img}">
-                <h3>${song.title}</h3>
-            </a>
-        `).join("")}
-    </div>`;
-}
-
-loadRecommendations();
-const songs = [
-{
-title: "Nataka - Country Wizzy",
-img: "https://www.citimuzik.com/wp-content/uploads/2026/01/Wizzy-Ft-Moni-Nataka.jpg.avif",
-url: "nataka.html"
-},
-{
-title: "GOAT TALK",
-img: "https://www.citimuzik.com/wp-content/uploads/2026/04/Young-Lunya.jpg",
-url: "goat-talk.html"
-},
-{
-title: "Iyo - D Voice",
-img: "https://www.citimuzik.com/wp-content/uploads/2026/04/D-Voice.jpg",
-url: "iyo.html"
-},
-{
-title: "Baridi - Zuchu",
-img: "https://www.citimuzik.com/wp-content/uploads/2026/01/Zuchu.jpg",
-url: "baridi.html"
-},
-{
-title: "Natulizana - Diamond",
-img: "https://www.citimuzik.com/wp-content/uploads/2026/02/Diamond.jpg",
-url: "natulizana.html"
-},
-{
-title: "Sumaku",
-img: "https://www.citimuzik.com/wp-content/uploads/2026/02/GeniusJini.jpg",
-url: "sumaku.html"
-}
-];
-
-// 🔥 RANDOM 6 SONGS
-let shuffled = songs.sort(() => 0.5 - Math.random());
-let selected = shuffled.slice(0, 6);
-
-document.getElementById("recommend-list").innerHTML =
-`<div class="rec-grid">
-${selected.map(song => `
-<a class="rec-card" href="${song.url}">
-<img src="${song.img}">
-<h3>${song.title}</h3>
-</a>
-`).join("")}
-</div>`;
-
-
-
-
-
-const burger = document.querySelector('.burger');
-const nav = document.querySelector('.nav-links');
-
-burger.addEventListener('click', () => {
-nav.classList.toggle('nav-active');
-});
