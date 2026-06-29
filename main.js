@@ -212,7 +212,7 @@ const pages = [
 {title: "Simela wena - Mineli Neli", url: "simela wena-mineli neli.html", content: "" },
 {title: "Simela wena - Nisilewe", url: "simela wena-nisilewe.html", content: "" },
 {title: "Simela wena - Tumeonana", url: "simela wena-tumeonana.html", content: "" },
-{title: "", url: "", content: "" },
+{title: "Timo G - Sms", url: "Timo G - Sms.html", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
