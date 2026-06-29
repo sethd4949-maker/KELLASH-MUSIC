@@ -205,13 +205,13 @@ const pages = [
 {title: "Pombe I - Marioo Ft Harmonize", url: "Marioo Ft Harmonize – Pombe I.html", content: "" },
 {title: "Timo G - Kitaani", url: "timo g- kitaani.html", content: "" },
 {title: "Timo G - Sometimes", url: "timo g- sometimes.html", content: "" },
-{title: "", url: "", content: "" },
-{title: "", url: "", content: "" },
-{title: "", url: "", content: "" },
-{title: "", url: "", content: "" },
-{title: "", url: "", content: "" },
-{title: "", url: "", content: "" },
-{title: "", url: "", content: "" },
+{title: "Simela wena songs", url: "Simela wena.html", content: "" },
+{title: "Simela wena - Eti Anasema!!", url: "simela wena-eti anasema!!.html", content: "" },
+{title: "Simela wena - Hatuchekeshi", url: "simela wena-hatuchekeshi.html", content: "" },
+{title: "Simela wena - Jombo", url: "simela wena-jombo.html", content: "" },
+{title: "Simela wena - Mineli Neli", url: "simela wena-mineli neli.html", content: "" },
+{title: "Simela wena - Nisilewe", url: "simela wena-nisilewe.html", content: "" },
+{title: "Simela wena - Tumeonana", url: "simela wena-tumeonana.html", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
 {title: "", url: "", content: "" },
@@ -295,7 +295,7 @@ searchInput.addEventListener("input", function () {
   const query = this.value.trim();
   resultsDiv.innerHTML = "";
 
-  if (query.length < 2) return;
+  if (query.length < 4) return;
 
   const results = fuse.search(query);
 
