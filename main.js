@@ -356,6 +356,25 @@ function scrollToTop(){
     });
 }
 
-function goToUpload(){
-    alert("Upload feature inakuja hivi karibuni 😎");
+
+// ================================
+// NEW & LATEST UPDATES SLIDER
+// ================================
+
+function slideUpdates(direction) {
+
+    const slider = document.querySelector(".grid222");
+
+    if (!slider) return;
+
+    const card = slider.querySelector(".card222");
+
+    if (!card) return;
+
+    const cardWidth = card.offsetWidth + 15;
+
+    slider.scrollBy({
+        left: direction * cardWidth * 2,
+        behavior: "smooth"
+    });
 }
