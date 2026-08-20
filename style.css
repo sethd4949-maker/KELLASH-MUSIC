@@ -996,3 +996,119 @@ font-size:14px;
     font-size: 20px;
     margin-bottom: 3px;
 }
+
+
+
+
+/* ============================= */
+/* NEW & LATEST UPDATES SLIDER */
+/* ============================= */
+
+.updates-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    margin: 15px;
+}
+
+.updates-header h1 {
+    font-size: 23px;
+    margin: 0;
+}
+
+.slider-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.slider-buttons button {
+    width: 38px;
+    height: 38px;
+    border: none;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.slider-buttons button:hover {
+    background: #333;
+    transform: scale(1.08);
+}
+
+/* Cards ziwe horizontal */
+
+.grid222 {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    margin-top: 2px;
+    padding: 10px 5px 20px;
+
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+
+    -webkit-overflow-scrolling: touch;
+
+    scrollbar-width: none;
+}
+
+.grid222::-webkit-scrollbar {
+    display: none;
+}
+
+.card222 {
+    flex: 0 0 180px;
+    scroll-snap-align: start;
+}
+
+.card222 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.card222 h3 {
+    margin: 7px 0 3px;
+    font-size: 15px;
+}
+
+.card222 p {
+    color: #555;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+
+    .updates-header {
+        padding: 15px 10px;
+        margin: 10px;
+    }
+
+    .updates-header h1 {
+        font-size: 19px;
+    }
+
+    .slider-buttons button {
+        width: 34px;
+        height: 34px;
+    }
+
+    .card222 {
+        flex: 0 0 155px;
+    }
+
+    .card222 img {
+        height: 155px;
+    }
+}
